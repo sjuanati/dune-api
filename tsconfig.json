@@ -1,15 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",                          
-    "module": "commonjs",                    
-    "lib": ["es6"],                     
-    "allowJs": true,
-    "outDir": "build",                          
-    "rootDir": "src",
-    "strict": true,         
-    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2022", "DOM"],
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "target": "ES2022",
     "esModuleInterop": true,
-    "resolveJsonModule": true
   }
 }
 
